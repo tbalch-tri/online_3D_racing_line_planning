@@ -570,6 +570,10 @@ def calc_rho_for_V(V):
     rho_velocity_frame_tmp = []
     for g_i, g_force in enumerate(g_list):
         ax_points_vehicle_frame, ay_points_vehicle_frame, beta_points = calc_gg_points(V, g_force, alpha_list)
+        if ax_points_vehicle_frame.size == 0 or ay_points_vehicle_frame.size == 0:
+            print("No points were created for the following V and g:")
+            print(f"V: {V}, g: {g_force}")
+            return np.array([]), np.array([])
 
         # rotate for velocity frame
         ax_points_velocity_frame, ay_points_velocity_frame = rotate_by_beta(

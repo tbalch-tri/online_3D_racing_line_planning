@@ -8,10 +8,10 @@ from matplotlib import pyplot as plt
 
 params = {
     'track_name': 'LVMS_3d_smoothed.csv',
-    'raceline_name': 'LVMS_3d_dallaraAV21_timeoptimal.csv',
+    'raceline_name': 'thunderhill_east_3d_luke-ish_timeoptimal.csv',
     # 'track_name': 'mount_panorama_3d_smoothed.csv',
     # 'raceline_name': 'mount_panorama_3d_dallaraAV21_timeoptimal.csv',
-    'vehicle_name': 'dallaraAV21',
+    'vehicle_name': 'luke',
     'plot_3D': True,
 }
 

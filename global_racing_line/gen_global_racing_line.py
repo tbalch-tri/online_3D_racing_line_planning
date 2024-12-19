@@ -7,10 +7,10 @@ import pandas as pd
 
 params = {
     'track_name': 'LVMS_3d_smoothed.csv',
-    'raceline_name': 'LVMS_3d_dallaraAV21_timeoptimal.csv',
+    'raceline_name': 'thunderhill_east_3d_luke-ish_timeoptimal.csv',
     # 'track_name': 'mount_panorama_3d_smoothed.csv',
     # 'raceline_name': 'mount_panorama_3d_dallaraAV21_timeoptimal.csv',
-    'vehicle_name': 'dallaraAV21',
+    'vehicle_name': 'luke',
     'safety_distance': 0.5,  # safety distance to track bounds in m
     'gg_mode': 'diamond',  # polar, diamond
     'gg_margin': 0.0,

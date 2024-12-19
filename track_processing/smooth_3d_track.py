@@ -2,11 +2,11 @@ import os
 import sys
 
 # examples
-track_name = 'LVMS_3d.csv'
-track_name_processed = 'LVMS_3d_smoothed.csv'
+# track_name = 'LVMS_3d.csv'
+# track_name_processed = 'LVMS_3d_smoothed.csv'
 
-# track_name = 'mount_panorama_3d.csv'
-# track_name_processed = 'mount_panorama_3d_smoothed.csv'
+track_name = 'thunderhill_east_3d.csv'
+track_name_processed = 'thunderhill_east_3d_smoothed.csv'
 
 
 # Dictionary for cost function of track smoothing.

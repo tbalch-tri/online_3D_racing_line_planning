@@ -2,13 +2,13 @@ import os
 import sys
 
 # examples
-track_name = 'LVMS_3d_smoothed.csv'
+track_name = 'thunderhill_east_3d.csv'
 # track_name = 'mount_panorama_3d_smoothed.csv'
 
 # paths
 dir_path = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(dir_path, '..', 'data')
-in_data_path = os.path.join(data_path, 'smoothed_track_data')
+in_data_path = os.path.join(data_path, '3d_track_data')
 sys.path.append(os.path.join(dir_path, '..', 'src'))
 
 from track3D import Track3D
